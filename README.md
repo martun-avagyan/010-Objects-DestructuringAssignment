@@ -1,12 +1,10 @@
-# 010ObjectsDestructuringAssignment
+# 010 Objects Destructuring Assignment
 
-## - Create a function that takes infinite count of elements, operator and prints their sum. If there's no operator, then default should be +
+- ### [02 Get name, country and job using destructuring](https://github.com/martun-avagyan/010ObjectsDestructuringAssignment/blob/main/02NameCountryJobDestructuring.js)
 
+```js
+let person = { name: "Sarah", country: "Armenia", job: "Developer" };
+console.log(name); // "Sarah"
+console.log(country); // "Nigeria"
+console.log(job); // "Developer"
 ```
-printSum("*", 1, 2, 3); // 9
-printSum(1, 2, 3, 4, 5); // 15
-printSum("-", 1, 2, 3, 6, 7); // -17
-printSum("**", 2, 3, 2); // 64
-```
-
-[12ElementsOperator.js](12ElementsOperator.js)
